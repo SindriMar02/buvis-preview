@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="robots" content="noindex, nofollow" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="color-scheme" content="dark" />
     <title>Búvís | Áburður, búvélar og rekstrarvörur fyrir bændur</title>
     <meta name="description" content="Búvís á Akureyri selur áburð, búvélar, rúlluplast, net, vagna, kerrur og rekstrarvörur til bænda. Áburðarverðskrá 2026. Grímseyjargata 1, 600 Akureyri." />
     <link rel="icon" type="image/png" href="/buvis-preview/favicon.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/buvis-preview/apple-touch-icon.png">
-    <link rel="preload" href="/buvis-preview/fonts/archivo-800.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/buvis-preview/fonts/archivo-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/buvis-preview/fonts/switzer-light.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/buvis-preview/fonts/fragmentmono-regular.woff2" as="font" type="font/woff2" crossorigin />
     <script>
       /* focus-guard (_tools/focus-guard): no focus ring after a tap or click; the README says why */
       (function () {
@@ -24,35 +24,37 @@
         }, true);
       })();
     </script>
-    <script type="module" crossorigin src="/buvis-preview/assets/index-DEyobvhr.js"></script>
-    <link rel="stylesheet" crossorigin href="/buvis-preview/assets/index-Ct2SGTkF.css">
+    <script type="module" crossorigin src="/buvis-preview/assets/index-BhjoozO6.js"></script>
+    <link rel="stylesheet" crossorigin href="/buvis-preview/assets/index-DdQ45OaD.css">
   </head>
   <body>
     <a class="skip" href="#main">Fara beint í efni</a>
 
     <header class="bar" id="bar">
-      <div class="bar__in">
-        <a class="bar__logo" href="/buvis-preview/" data-link aria-label="Búvís, forsíða">
-          <img src="/buvis-preview/media/logo-buvis.png" width="735" height="258" alt="Búvís Akureyri" />
-        </a>
-        <nav class="bar__nav" aria-label="Aðalvalmynd">
-          <a href="/buvis-preview/aburdur" data-link data-nav="aburdur">Áburður 2026</a>
-          <a href="/buvis-preview/vorur" data-link data-nav="vorur">Vörur</a>
-          <a href="/buvis-preview/vorumerki" data-link data-nav="merki">Vörumerki</a>
-          <a href="/buvis-preview/panta-lambamerki" data-link data-nav="lamb">Lambamerki</a>
-          <a href="/buvis-preview/frettir" data-link data-nav="frettir">Fréttir</a>
-          <a href="/buvis-preview/um-okkur" data-link data-nav="um">Um okkur</a>
-        </nav>
-        <div class="bar__end">
-          <a class="bar__tel mono" href="tel:+3544651332">465 1332</a>
-          <a class="bar__order" href="/buvis-preview/pontun" data-link>
-            <span>Pöntun</span><span class="bar__count mono" data-order-count hidden>0</span>
-          </a>
-          <button class="bar__menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
-            <span class="bar__menu-lines" aria-hidden="true"></span><span class="sr">Valmynd</span>
-          </button>
+      <a class="bar__logo" href="/buvis-preview/" data-link aria-label="Búvís, forsíða">
+        <img src="/buvis-preview/media/logo-buvis.png" width="735" height="258" alt="Búvís Akureyri" />
+      </a>
+      <nav class="bar__nav" aria-label="Aðalvalmynd">
+        <div class="nav-item"><a class="nav-btn" href="/buvis-preview/aburdur" data-link data-nav="aburdur"><span>Áburður 2026</span></a></div>
+        <div class="nav-item">
+          <button class="nav-btn" type="button" aria-expanded="false" aria-controls="nav-vorur" data-drop data-nav="vorur"><span>Vörur</span><svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+          <div class="nav-panel" id="nav-vorur" tabindex="-1" data-panel></div>
         </div>
-      </div>
+        <div class="nav-item"><a class="nav-btn" href="/buvis-preview/vorumerki" data-link data-nav="merki"><span>Vörumerki</span></a></div>
+        <div class="nav-item"><a class="nav-btn" href="/buvis-preview/panta-lambamerki" data-link data-nav="lamb"><span>Lambamerki</span></a></div>
+        <div class="nav-item">
+          <button class="nav-btn" type="button" aria-expanded="false" aria-controls="nav-um" data-drop data-nav="um"><span>Fyrirtækið</span><svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+          <div class="nav-panel" id="nav-um" tabindex="-1" data-panel>
+            <a href="/buvis-preview/um-okkur" data-link><span>Um Búvís</span><span class="mono">Frá 2006</span></a>
+            <a href="/buvis-preview/frettir" data-link><span>Fréttir</span><span class="mono">21</span></a>
+            <a href="/buvis-preview/hafa-samband" data-link><span>Hafa samband</span><span class="mono">465 1332</span></a>
+          </div>
+        </div>
+      </nav>
+      <a class="bar__cta" href="/buvis-preview/pontun" data-link><span>Pöntun</span><span class="bar__count" data-order-count hidden>0</span></a>
+      <button class="bar__menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
+        <span class="bar__menu-lines" aria-hidden="true"></span><span class="sr">Valmynd</span>
+      </button>
     </header>
 
     <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Valmynd" tabindex="-1" hidden>
@@ -61,22 +63,22 @@
         <button class="menu__close" type="button" data-menu-close><span class="sr">Loka valmynd</span><span aria-hidden="true" class="menu__x"></span></button>
       </div>
       <nav class="menu__nav" aria-label="Valmynd">
-        <p class="menu__group mono">Panta</p>
+        <p class="menu__group t-label">Panta</p>
         <a href="/buvis-preview/aburdur" data-link>Áburður 2026</a>
         <a href="/buvis-preview/panta-lambamerki" data-link>Lambamerki</a>
-        <p class="menu__group mono">Vörur</p>
+        <p class="menu__group t-label">Vörur</p>
         <a href="/buvis-preview/vorur" data-link>Allar vörur</a>
-        <a href="/buvis-preview/vorur?flokkur=dreifing" data-link>Áburðardreifing og haugtæki</a>
-        <a href="/buvis-preview/vorur?flokkur=heyvinnsla" data-link>Hey- og jarðvinnslutæki</a>
+        <a href="/buvis-preview/vorur?flokkur=dreifing" data-link>Dreifing og haugtæki</a>
+        <a href="/buvis-preview/vorur?flokkur=heyvinnsla" data-link>Heyvinnsla</a>
         <a href="/buvis-preview/vorur?flokkur=vagnar" data-link>Vagnar og kerrur</a>
         <a href="/buvis-preview/vorumerki" data-link>Vörumerki</a>
-        <p class="menu__group mono">Fyrirtækið</p>
-        <a href="/buvis-preview/um-okkur" data-link>Um okkur</a>
+        <p class="menu__group t-label">Fyrirtækið</p>
+        <a href="/buvis-preview/um-okkur" data-link>Um Búvís</a>
         <a href="/buvis-preview/frettir" data-link>Fréttir</a>
         <a href="/buvis-preview/hafa-samband" data-link>Hafa samband</a>
       </nav>
       <div class="menu__foot">
-        <a class="btn btn--primary" href="/buvis-preview/pontun" data-link>Pöntun</a>
+        <a class="btn btn--accent" href="/buvis-preview/pontun" data-link><span>Pöntun</span></a>
         <a class="mono" href="tel:+3544651332">465 1332</a>
       </div>
     </div>
@@ -84,33 +86,31 @@
     <main id="main" tabindex="-1"></main>
 
     <footer class="foot">
-      <div class="foot__in">
-        <div class="foot__brand">
-          <img src="/buvis-preview/media/logo-buvis.png" width="735" height="258" alt="Búvís Akureyri" loading="lazy" />
-          <p>Búvís ehf.<br />Grímseyjargata 1<br />600 Akureyri</p>
-          <p class="mono">kt. 590106-1270</p>
+      <div class="foot__card">
+        <div class="foot__lead">
+          <div class="foot__brand"><img src="/buvis-preview/media/logo-buvis.png" width="735" height="258" alt="Búvís Akureyri" loading="lazy" /></div>
+          <p>Áburður, vélar og rekstrarvörur. Hringdu, sendu línu eða pantaðu hér.</p>
+          <div><a class="btn btn--black" href="/buvis-preview/hafa-samband" data-link><span>Hafa samband</span></a></div>
+          <div class="foot__facts">
+            <span>Búvís ehf. · kt. 590106-1270</span>
+            <span>Grímseyjargata 1, 600 Akureyri</span>
+            <a href="mailto:buvis@buvis.is">buvis@buvis.is</a>
+          </div>
         </div>
-        <div class="foot__col">
-          <h2 class="foot__h">Sími og netfang</h2>
-          <p class="mono"><a href="tel:+3544651332">465 1332</a></p>
-          <p><a href="mailto:buvis@buvis.is">buvis@buvis.is</a></p>
-        </div>
-        <div class="foot__col">
-          <h2 class="foot__h">Starfsfólk</h2>
-          <p>Einar <a class="mono" href="tel:+3546601648">660 1648</a></p>
-          <p>Gunnar <a class="mono" href="tel:+3548999193">899 9193</a></p>
-          <p>Valdemar <a class="mono" href="tel:+3546594149">659 4149</a></p>
-        </div>
-        <div class="foot__col">
-          <h2 class="foot__h">Vefurinn</h2>
-          <p><a href="/buvis-preview/aburdur" data-link>Áburður 2026</a></p>
-          <p><a href="/buvis-preview/vorur" data-link>Vörur</a></p>
-          <p><a href="/buvis-preview/panta-lambamerki" data-link>Lambamerki</a></p>
-          <p><a href="/buvis-preview/hafa-samband" data-link>Hafa samband</a></p>
-        </div>
+        <nav class="foot__nav" aria-label="Vefurinn">
+          <a href="/buvis-preview/aburdur" data-link>Áburður 2026<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 12 12 2M5 2h7v7" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+          <a href="/buvis-preview/vorur" data-link>Vörur<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 12 12 2M5 2h7v7" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+          <a href="/buvis-preview/vorumerki" data-link>Vörumerki<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 12 12 2M5 2h7v7" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+          <a href="/buvis-preview/panta-lambamerki" data-link>Lambamerki<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 12 12 2M5 2h7v7" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+          <a href="/buvis-preview/um-okkur" data-link>Um Búvís<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 12 12 2M5 2h7v7" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+          <a href="/buvis-preview/frettir" data-link>Fréttir<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 12 12 2M5 2h7v7" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+        </nav>
+        <a class="foot__big" href="tel:+3544651332" aria-label="Hringja í 465 1332">465 1332</a>
       </div>
-      <p class="foot__credit">Frumgerð: <a href="https://sndrstudio.is" rel="noopener">SNDR Studio</a>. Myndir, vörur og texti af buvis.is. Ekkert er sent úr þessari frumgerð.</p>
+      <p class="foot__credit">Frumgerð: <a href="https://sndrstudio.is" rel="noopener">SNDR Studio</a>. Vörur, myndir og texti af buvis.is. Ekkert er sent úr þessari frumgerð.</p>
     </footer>
+
+    <a class="float-cta" href="/buvis-preview/aburdur" data-link data-float><span>Panta áburð</span><span class="mono" data-float-count>Verðskrá 2026</span></a>
 
     <div class="live sr" aria-live="polite" data-live></div>
   </body>
